@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Activity 3 - HTML Mastery with Git</title>
 </head>
+
   <!-- Header Container -->
   <header>
     <h1>Activity 3 - HTML Mastery with Git</h1>
@@ -23,7 +24,7 @@
     </nav>
   </header>
   <!-- End of Header Container -->
-
+  <hr>
   <!-- Main Container -->
   <main>
 
@@ -34,7 +35,7 @@
       <button>Learn more</button>
     </section>
     <!-- End of Home Section -->
-
+    <br><hr>
     <!-- About Section -->
     <section id="about">
       <h2>
@@ -85,12 +86,71 @@
 
     </section>
     <!-- End of About Section -->
-
+    <br><hr>
     <!-- Contact Section -->
     <section id="contact">
       <h2>
         <u>Contact</u>
       </h2>
+
+      <!-- Form -->
+      <form>
+
+        <!-- Name -->
+        <div>
+          <label for="name">
+            <strong>Name:</strong>
+          </label>
+          <br><br>
+          <input type="text" 
+                 id="name" 
+                 name="name" 
+                 placeholder="Ex. John Doe" 
+                 required>
+        </div>
+        <!-- End of Name -->
+
+        <br>
+        
+        <!-- Email -->
+        <div>
+          <label for="email">
+            <strong>Email:</strong>
+          </label>
+          <br><br>
+          <input type="email" 
+                 id="email" 
+                 name="email" 
+                 placeholder="Ex. johndoe@gmail.com" 
+                 required>
+        </div>
+        <!-- End of Email -->
+
+        <br>
+
+        <!-- Message -->
+        <div>
+          <label for="message">
+            <strong>Message:</strong>
+          </label>
+          <br><br>
+          <textarea id="message" 
+                    name="message" 
+                    rows="4" 
+                    cols="50" 
+                    placeholder="Please type a message here..." 
+                    required></textarea>
+        </div>
+        <!-- End of Message -->
+
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+
+      </form>
+      <!-- End of Form -->
+
     </section>
     <!-- End of Contact Section -->
 
